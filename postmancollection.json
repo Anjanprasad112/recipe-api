@@ -1,0 +1,150 @@
+{
+	"info": {
+		"name": "Mesob Recipe API",
+		"description": "A recipe sharing platform built using DRF",
+		"version": "1.0.0",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All Recipes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": "{{base_url}}/api/recipe/"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Recipe by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": "{{base_url}}/api/recipe/{id}/"
+			},
+			"response": []
+		},
+		{
+			"name": "Create Recipe",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "{{base_url}}/api/recipe/create/"
+			},
+			"response": []
+		},
+		{
+			"name": "Like Recipe",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "{{base_url}}/api/recipe/{id}/like/"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Like from Recipe",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": "{{base_url}}/api/recipe/{id}/like/"
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": "{{base_url}}/api/user/"
+			},
+			"response": []
+		},
+		{
+			"name": "Register User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "{{base_url}}/api/user/register/"
+			},
+			"response": []
+		},
+		{
+			"name": "Login User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "{{base_url}}/api/user/login/"
+			},
+			"response": []
+		},
+		{
+			"name": "Logout User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "{{base_url}}/api/user/logout/"
+			},
+			"response": []
+		},
+		{
+			"name": "Get User Profile",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": "{{base_url}}/api/user/profile/"
+			},
+			"response": []
+		},
+		{
+			"name": "Update User Profile",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"url": "{{base_url}}/api/user/profile/"
+			},
+			"response": []
+		},
+		{
+			"name": "Change User Password",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"url": "{{base_url}}/api/user/password/change/"
+			},
+			"response": []
+		},
+		{
+			"name": "Reset User Password",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "{{base_url}}/api/user/password/reset/"
+			},
+			"response": []
+		},
+		{
+			"name": "Refresh User Token",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": "{{base_url}}/api/user/token/refresh/"
+			},
+			"response": []
+		}
+	]
+}
